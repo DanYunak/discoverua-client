@@ -1,0 +1,20 @@
+.header {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    background-color: #044156;
+    height: 65px;
+    .logo {
+        position: absolute;
+        left: 6%;
+        font-family: 'Roboto Mono';
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+}

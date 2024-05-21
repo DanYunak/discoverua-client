@@ -1,0 +1,33 @@
+.nav {
+    position: relative;
+    width: 100%;
+}
+
+.nav__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__link {
+    text-decoration: none;
+    padding: 20px;
+    color: #fff;
+    
+}
+
+.nav__auth {
+    position: absolute;
+    top: 55%;
+    right: 10%;
+    transform: translateY(-38%);
+    cursor: pointer;
+}
+
+.nav__username {
+    position: absolute;
+    right: 13%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Roboto Mono';
+}
